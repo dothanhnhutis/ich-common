@@ -13,7 +13,7 @@
     "test": "vitest run",
     "lint": "tsc",
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "ci": "npm run lint && npm run test && npm run buid",
+    "ci": "npm run lint && npm run test && npm run build",
     "release": "npm run ci && npx changeset publish"
   },
   "keywords": [],
